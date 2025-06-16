@@ -801,7 +801,11 @@ color: black;
     border-radius: 50px;
     padding: 12px;
     border: 2PX solid aqua;
+    transition: .5s;
  }
+.SMP:hover{
+    padding: 14px;
+}
 
 .footer{
     text-align: center;
