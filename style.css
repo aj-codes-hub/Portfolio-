@@ -45,6 +45,7 @@ html{
                 z-index: 1;
 }
 .airo_button3{
+               
                 padding: 10px;
                 display: none;
                 background-color: black;
@@ -64,7 +65,7 @@ html{
 }
 @keyframes grow5 {
     0%{
-        box-shadow: 1px 1px 1px aqua);
+        box-shadow: 1px 1px 1px aqua;
     }
     50%{
         box-shadow: 1px 1px 13px aqua;
@@ -73,10 +74,38 @@ html{
         box-shadow: 1px 1px 13px aqua;
     }
     100%{
-        box-shadow: 1px 1px 1px aqua);
+        box-shadow: 1px 1px 1px aqua000000000000000000000000000000000000000000000000
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ;
     }
 }
-
 
  /**************************** Home Section page start's here  *************************/
 
@@ -752,6 +781,28 @@ color: black;
 
 }
 
+/*DSMP IS STANDS FOR DIV OF SEE MORE PROJECTS BUTTON  */
+.DSMP{
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+
+/* SMP IS STANDS FOR SEE MORE PROJECTS BUTTON  */
+ .SMP{
+    margin-left: 85%;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(aqua 40%, white 60%);
+    text-decoration: none; 
+    font-weight: 800;
+    border-radius: 50px;
+    padding: 12px;
+    border: 2PX solid aqua;
+ }
+
 .footer{
     text-align: center;
     padding: 20px;
@@ -1322,7 +1373,9 @@ color: black;
    padding:13px 20px;
    color: black;
 }
-    
+    .DSMP{
+        display: none;
+    }
 .footer{
     text-align: center;
     padding: 20px;
